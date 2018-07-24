@@ -1,0 +1,30 @@
+{
+  "name": "xelect_oauth",
+  "version": "1.0.0",
+  "description": "Authentication System",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo Error: no test specified"
+  },
+  "author": "Jack Sawyer",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.1",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mysql": "*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "should": "^13.2.1"
+  }
+}
